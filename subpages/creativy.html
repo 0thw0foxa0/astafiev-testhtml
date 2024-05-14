@@ -10,56 +10,59 @@
     <style>
         body {
             font-family: 'MONTSERRAT';
-            background: linear-gradient(#f5deb3, #013220)
-            
-            
+           
+            overflow-x: hidden
         }
     </style>
 </head>
 
 <body>
 
-    <section class=" w-full h-3/6 overflow-hidden  bg-[#929287]  overflow-x-hidden  ">
+    <section class=" relative z-10 w-full h-3/6 overflow-hidden bg-[#929287]  overflow-x-hidden  ">
 
         <div class="h-full w-full flex items-center  ">
             <!-- <img src="http://www.biograph.ru/images/stories/chron3/astafiev31.jpg" alt=""> -->
             <div class="  px-4 py-3  w-full text-center ">
-                <p class="text-center text-[2.4vh] md:text-[3vh] xl:text-[8vh] text-white">Астафьев <br> в творчестве</p>
-                <p class="text-center text-[1.5vh] md:text-[2vh] xl:text-[3vh] text-white"> о литературных творениях Виктора Петровича </p>
+                <p class="text-center text-[2.4vh] md:text-[3vh] xl:text-[8vh] text-[#383d31] ">Астафьев <br> в творчестве
+                </p>
+                <p class="text-center text-[1.5vh] md:text-[2vh] xl:text-[3vh] text-[#383d31] "> о литературных творениях
+                    Виктора Петровича </p>
             </div>
         </div>
-        <div class=" w-full sm:w-full h-3/6 flex-col sm:flex-row flex items-center justify-center ">
+        <div class=" w-full  h-3/6 flex-col sm:flex-row flex items-center justify-center ">
             <button onclick="scrollFunction('country')"
-                class=" py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Деревенская
-                проза</button>
+                class=" w-full h-[5vh] md:w-2/6 lg:w-3/12 py-2.5 px-5 me-2 mb-2 text-sm sm:text-[1.3vh] lg:text-[1.8vh] font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+               <p class="text-nowrap"> Деревенская проза</p></button> 
 
             <button onclick="scrollFunction('military')"
-                class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Военная
-                проза</button>
+                class=" w-full h-[5vh] md:w-2/6 lg:w-3/12 py-2.5 px-5 me-2 mb-2 text-sm sm:text-[1.3vh] lg:text-[1.8vh] font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+               <p class="text-nowrap">Военная проза</p> </button>
 
             <button onclick="scrollFunction('city')"
-                class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Городская
-                проза</button>
+                class=" w-full h-[5vh] md:w-2/6 lg:w-3/12 py-2.5 px-5 me-2 mb-2 text-sm sm:text-[1.3vh] lg:text-[1.8vh] font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                <p class="text-nowrap">Городская                проза</p></button>
         </div>
     </section>
 
 
 
-    <section class="w-screen h-fit overflow-hidden bg-gradient-to-b from-[#85867b] to-[#65685c] pt-5">
+    <section class="relative w-screen z-10 h-fit overflow-hidden bg-gradient-to-b from-[#828378] to-[#65685c] pt-5">
         <div class="  items-center mx-auto ">
-            <div class=" w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3 " id="country">
-                <p class="text-center text-[2.4vh]"> « Деревенская проза » </p>
-                <p class="  text-[2vh]   text-start">
-                    
-                     <br> <br>Деревенская проза – одно из направлений в литературе, которое
+            <div class=" w-fit text-[#ebe7dd] lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3 "
+                id="country">
+                <p class="text-[#ebe7dd] text-center text-[2.4vh]"> « Деревенская проза » </p>
+                <p class="text-[#ebe7dd]  text-[2vh]   text-start">
+
+                    <br> <br>Деревенская проза – одно из направлений в литературе, которое
                     получило развитие во второй половине ХХ века. Основная идея этого литературного направления
                     заключается в описании сельской и деревенской жизни, когда большая часть народа начала покидать
                     деревни и переезжать в города, отказываясь от исторических традиций жить и трудиться рядом с
                     природой и могилами предков, от нравственных ценностей, передаваемых от поколения к поколению
                     деревенскими жителями.
                 </p>
-                <p class="   text-[2vh]  text-start ">
-                   <br><br> В.П. Астафьев ‒ один из ярких представителей деревенской прозы. Он посвятил теме русской деревни ряд
+                <p class=" text-[#ebe7dd]  text-[2vh]  text-start ">
+                    <br><br> В.П. Астафьев ‒ один из ярких представителей деревенской прозы. Он посвятил теме русской
+                    деревни ряд
                     произведений, среди которых есть образец деревенской прозы ‒ повесть «Последний поклон».
                 </p>
             </div>
@@ -67,9 +70,10 @@
         </div>
 
         <div class=" items-center pt-8 ">
-            <div class=" w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3 ">
-                <p class="text-center text-[3vh] ">« Последний поклон » </p>
-                <p class=" text-[2vh]   text-start">
+            <div
+                class=" w-fit text-[#ebe7dd] lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3 ">
+                <p class="text-[#ebe7dd] text-center text-[3vh] ">« Последний поклон » </p>
+                <p class="text-[#ebe7dd] text-[2vh]   text-start">
                     В 1968 г. была издана повесть «Последний поклон», которая состояла из 15 рассказов. В.П. Астафьев
                     отразил в цикле свой личный опыт.
 
@@ -99,8 +103,8 @@
             </div>
 
         </div>
-        <div class="w-full h-3/6 flex  justify-center pt-8">
-            <div class="container-wrapper-genially justify-center w-max-[100$] lg:max-w-[40%]"
+        <div class="w-full h-3/6 flex   justify-center pt-8 pb-8">
+            <div class="container-wrapper-genially justify-center px-8 sm:max-w-[80%] lg:max-w-[40%]"
                 style="position: relative; min-height: 300px; ">
                 <video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted"
                     style="position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%);width: 80px;height: 80px;margin-bottom: 10%">
@@ -114,39 +118,14 @@
 
         </div>
 
-
-    </section>
-    <!-- <section class=" h-screen w-screen content-center ">
-        <div class="container-wrapper-genially  " style="position: relative; min-height: 400px;  max-width: 100%;">
-            <video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted" style="position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%);width: 80px;height: 80px;margin-bottom: 10%"><source src="https://static.genial.ly/resources/loader-default.mp4" type="video/mp4" />Your browser does not support the video tag.
-            </video>
-            <--   это загрузка  
-                <div id="655b1af46ea5a80012a573c5" class="genially-embed content-center " style="margin: 0px auto; position: relative; height: auto; width: 50%;">
-                </div>
-        </div> 
-            <script>
-            (function (d) {
-                 var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0];
-                  if (d.getElementById(id)) {
-                     return; 
-                    } 
-                    js = d.createElement("script"); 
-                  js.id = id;
-                   js.async = true; 
-                   js.src = "https://view.genial.ly/static/embed/embed.js";
-                    ref.parentNode.insertBefore(js, ref); 
-                }(document));
-            </script>
-            </section> -->
-
-    <section class="w-full h-fit overflow-hidden bg-gradient-to-b from-[#3e4238] to-[#65685c]">
         <div class="items-center pt-8">
-            <div class=" w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3">
-                <p class="text-center text-[2.4vh]">« Царь-рыба »
+            <div
+                class=" w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3">
+                <p class="text-[#ebe7dd] text-center text-[2.4vh]">« Царь-рыба »
 
                 </p>
 
-                <p class="   text-[2vh]    text-start">
+                <p class="text-[#ebe7dd]   text-[2vh]    text-start">
                     Произведение В.П. Астафьева «Царь-рыба» — одно из самых известных. Впервые сборник издался в 1976
                     году в журнале «Наш современник». Повесть «Царь-рыба» в этом сборнике была пятой.
                     Рыба выступает символом величия и превосходства природы над человеком. Она сильнее и мудрее людей,
@@ -164,7 +143,7 @@
         <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
         </div>
 
-        <div id="default-carousel" class="relative w-[100%] lg:w-2/5 mx-auto  h-[70vh] pt-10" data-carousel="slide">
+        <div id="default-carousel" class="relative w-[100%] sm:w-4/5 md:w-3/6 lg:w-2/6 mx-auto  h-[45vh] sm:h-[70vh] pt-5 pb-5" data-carousel="slide">
             <!-- Carousel wrapper -->
             <div class="relative h-full w-full overflow-hidden rounded-lg md:h-[70vh]">
                 <!-- Item 1 -->
@@ -239,19 +218,48 @@
                 </span>
             </button>
         </div>
-
     </section>
+    <!-- <section class=" h-screen w-screen content-center ">
+        <div class="container-wrapper-genially  " style="position: relative; min-height: 400px;  max-width: 100%;">
+            <video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted" style="position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%);width: 80px;height: 80px;margin-bottom: 10%"><source src="https://static.genial.ly/resources/loader-default.mp4" type="video/mp4" />Your browser does not support the video tag.
+            </video>
+            <--   это загрузка  
+                <div id="655b1af46ea5a80012a573c5" class="genially-embed content-center " style="margin: 0px auto; position: relative; height: auto; width: 50%;">
+                </div>
+        </div> 
+            <script>
+            (function (d) {
+                 var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0];
+                  if (d.getElementById(id)) {
+                     return; 
+                    } 
+                    js = d.createElement("script"); 
+                  js.id = id;
+                   js.async = true; 
+                   js.src = "https://view.genial.ly/static/embed/embed.js";
+                    ref.parentNode.insertBefore(js, ref); 
+                }(document));
+            </script>
+            </section> -->
+
+    <section class="w-full h-fit overflow-hidden bg-[#383d31] "
+    >
+  
+    <video class="fixed -z-1 w-auto min-w-full min-h-full max-w-none top-0 left-0 right-0 bottom-0 opacity-15 blur-sm" autoplay muted loop>
+        <source src="https://video.wixstatic.com/video/d5df8a_e392487999ae44958c514c1cd8a949ba/1080p/mp4/file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
 
 
 
 
-
-    <section class="h-fit w-screen overflow-hidden">
-        <div class="w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-6 min-[100px]:max-lg:mr-6" id="military">
-            <p class=" text-center text-[3vh] lg:text-[6vh]"> Военная проза </p>
-            <p class=" text-center text-[2.4vh] lg:text-[5vh] pt-8">« Пастушка и пастух »</p>
-            <p class=" text-start text-[2vh]"> «Тоска по «настоящему», по «моему» произведению томила меня, и я ощущал в
+    <!-- <section class="h-fit w-screen overflow-hidden"> -->
+        <div class="w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-6 min-[100px]:max-lg:mr-6 z-10"
+            id="military">
+            <p class="text-[#ebe7dd] text-center text-[3vh] lg:text-[6vh]"> Военная проза </p>
+            <p class="text-[#ebe7dd] text-center text-[2.4vh] lg:text-[5vh] pt-8">« Пастушка и пастух »</p>
+            <p class="text-[#ebe7dd] text-start text-[2vh]"> «Тоска по «настоящему», по «моему» произведению томила меня, и я ощущал в
                 себе к нему позывы, но что это, как это — не понимал», — так рождался замысел повести «Пастух и
                 пастушка» по словам самого Астафьева.
 
@@ -269,7 +277,7 @@
             </p>
             <img class="float-right h-[25vh] sm:h-[33vh] lg:h-[43vh]" src="../img/shepherd.jpg" alt="">
 
-            <p class=" text-start text-[2vh]"> Сам автор описал повесть как «современную пастораль». Пастораль —
+            <p class="text-[#ebe7dd] text-start text-[2vh]"> Сам автор описал повесть как «современную пастораль». Пастораль —
                 пастушеская поэзия. В ней прославляется жизнь естественных людей на лоне природы в противопоставлении
                 жизни городской. Астафьев «упаковывает» прозу о войне в поэтический жанр XVI-XVII веков. Он
                 противопоставляет трогательные чувства и сентиментальное мироощущение с суровыми условиями войны. А
@@ -289,14 +297,15 @@
         </div>
 
 
-    </section>
+    <!-- </section> -->
 
-    <section class=" h-fit w-screen">
+    <!-- <section class=" h-fit w-screen"> -->
 
-        <p class=" text-center text-[2.4vh] lg:text-[5vh] pt-8"> « Прокляты и убиты »</p>
-        <div class=" w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3">
+        <p class=" text-[#ebe7dd] text-center text-[2.4vh] lg:text-[5vh] pt-8"> « Прокляты и убиты »</p>
+        <div
+            class=" w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3">
 
-            <p class="text-start text-[2vh]">«И книга его выступила столь невозможной к привычному приятию, что
+            <p class="text-[#ebe7dd] text-start text-[2vh]">«И книга его выступила столь невозможной к привычному приятию, что
                 общественности оставалось лучше не заметить, не слишком заметить её – либо неубедительно громить как
                 «клевету». Перевесило первое», — так писал в своем очерке о романе Виктора Астафьева другой великий
                 русский писатель Александр Исаевич Солженицын.
@@ -308,7 +317,7 @@
                 знал, что такое фронт. Это текст-травма, то есть основанный на травматическом жизненном и историческом
                 опыте.
             </p>
-            <p class="text-start text-[2vh]">Текст лишен героического пафоса, но преисполнен обличительного. По мысли
+            <p class="text-[#ebe7dd] text-start text-[2vh]">Текст лишен героического пафоса, но преисполнен обличительного. По мысли
                 автора, во время войны народ противостоял не только внешнему врагу, но и внутреннему — в лице правящей
                 партии. Как настоящий «деревенщик» Астафьев становится голосом простого народа с нелегкой судьбой.
                 Личный опыт, помноженный на коллективную трагедию, неизбежно рождает мотивы насилия и раскаяния.
@@ -318,18 +327,22 @@
                 кто уже сгнил на бескрайних полях России и в чужом зарубежье, молиться Богу...»
 
             </p>
-            <p class="text-[2vh] py-6 text-start"> Выражая свой болезненный опыт на бумаге, Астафьев проходил
+            <p class="text-[#ebe7dd] text-[2vh] py-6 text-start"> Выражая свой болезненный опыт на бумаге, Астафьев проходил
                 своеобразную терапию — избавлялся от тяжелого груза воспоминаний и чувств.</p>
 
         </div>
+ </section>
+        
+ 
+<section class="relative z-10 w-full h-fit overflow-hidden items-center justify-center bg-[url('../img/09-2.jpg')] bg-fixed bg-cover  bg-no-repeat bg-opacity-5  ">
+        <div class=" w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3"
+            id="city">
 
-        <div class=" w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3" id="city">
+            <P class="text-[#ebe7dd] text-center text-[2.4vh] lg:text-[5vh]">Городская проза</P>
 
-            <P class=" text-center text-[2.4vh] lg:text-[5vh]">Городская проза</P>
+            <P class=" text-[#ebe7dd] text-center text-[2.4vh] lg:text-[5vh]">« Людочка »</P>
 
-            <P class=" text-center text-[2.4vh] lg:text-[5vh]">« Людочка »</P>
-
-            <p class="text-start  text-[2vh]">
+            <p class="text-[#ebe7dd] text-start  text-[2vh]">
                 Рассказ «Людочка» был написан в 1987 году. В основу произведения легла история, которую Виктор Петрович
                 услышал.
                 Идея появилась задолго до написания, автор около пятнадцати лет думал, как лучше ее преподнести.
@@ -355,86 +368,62 @@
                 С помощью нейросети мы создали портреты женщин из произведениa Астафьева. Как Shedevrum AI видит героинь
                 рассказа «Людочка», смотрите в карточках ниже.
             </p>
-    </section>
-    <section class="h-fit w-screen">
-        <div id="default-carousel" class="relative w-full lg:w-2/5 mx-auto  h-[50vh] pt-10 " data-carousel="slide">
-            <!-- Carousel wrapper -->
-            <div class="relative h-full w-full overflow-hidden rounded-lg md:h-[50vh]">
-                <!-- Item 1 -->
-                <div class="hidden duration-300 ease-in-out object-cover w-full " data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Людочка/IMG_3080.PNG"
-                        class="object-contain absolute block w-full h-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
-                <!-- Item 2 -->
-                <div class="hidden duration-300 ease-in-out w-full" data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Людочка/IMG_3081.PNG"
-                        class=" object-contain absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
-                <!-- Item 3 -->
-                <div class="hidden duration-300 ease-in-out" data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Людочка/IMG_3083.PNG"
-                        class="object-contain absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
-                <!-- Item 4 -->
-                <div class="hidden duration-300 ease-in-out" data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Людочка/IMG_3084.PNG"
-                        class="object-contain absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
-                <!-- Item 5
-            <div class="hidden duration-300 ease-in-out" data-carousel-item>
-                <img src="../img/fish5.png" class="object-contain absolute block w-full h-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 " alt="...">
-            </div> -->
-            </div>
-            <!-- Slider indicators -->
-            <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
-                    data-carousel-slide-to="0"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
-                    data-carousel-slide-to="1"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
-                    data-carousel-slide-to="2"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
-                    data-carousel-slide-to="3"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
-                    data-carousel-slide-to="4"></button>
-            </div>
-            <!-- Slider controls -->
-            <button type="button"
-                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-prev>
-                <span
-                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 1 1 5l4 4" />
-                    </svg>
-                    <span class="sr-only">Previous</span>
-                </span>
-            </button>
-            <button type="button"
-                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-next>
-                <span
-                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="m1 9 4-4-4-4" />
-                    </svg>
-                    <span class="sr-only">Next</span>
-                </span>
-            </button>
         </div>
-        </div>
-        <div class="w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3">
 
-            <p class=" text-center text-[2.4vh] lg:text-[5vh]">« Печальный детектив »</p>
-            <p class="text-start text-[2vh]">
+       
+
+<div id="default-carousel" class="relative w-[100%] sm:w-4/5 md:w-3/6 lg:w-2/6  mx-auto  h-[45vh] sm:h-[70vh]  pt-5 pb-5 " data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-full w-full overflow-hidden rounded-lg  sm:h-[70vh] ">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="../img/lud1.PNG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="../img/lud2.PNG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="../img/lud3.PNG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="../img/lud4.PNG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+        
+        <div
+            class="w-fit lg:w-2/5 text-[1.5vh] lg:text-[2vh] xl:text-[5vh] items-center mx-auto  min-[100px]:max-lg:ml-3 min-[100px]:max-lg:mr-3">
+
+            <p class="text-[#ebe7dd] text-center text-[2.4vh] lg:text-[5vh]">« Печальный детектив »</p>
+            <p class="text-[#ebe7dd] text-start text-[2vh]">
                 Идея «Печального детектива» появилась в 60-е годы.
                 На мысли о «городском романе» Астафьева натолкнул друг и критик Александр Николаевич Макаров.
 
@@ -448,98 +437,72 @@
                 чувство тоски.
             </p>
         </div>
-    </section>
+    
 
-    <section class="h-fit w-screen">
-        <div id="default-carousel" class=" relative lg:w-2/5 mx-auto  h-[50vh] pt-10 " data-carousel="slide">
-            <!-- Carousel wrapper -->
-            <div class="relative h-full w-full overflow-hidden rounded-lg md:h-[70vh]">
-                <!-- Item 1 -->
-                <div class="hidden duration-300 ease-in-out object-cover w-full " data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Печальный детектив/ПД 1.png"
-                        class="object-contain absolute block w-full h-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
-                <!-- Item 2 -->
-                <div class="hidden duration-300 ease-in-out w-full" data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Печальный детектив/ПД 2.png"
-                        class=" object-contain absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
-                <!-- Item 3 -->
-                <div class="hidden duration-300 ease-in-out" data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Печальный детектив/пд3.png"
-                        class="object-contain absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
-                <!-- Item 4 -->
-                <div class="hidden duration-300 ease-in-out" data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Печальный детектив/пд4.png"
-                        class="object-contain absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
-                <!-- Item 5 -->
-                <div class="hidden duration-300 ease-in-out" data-carousel-item>
-                    <img src="../img/Астафьев в творчестве/Печальный детектив/пд5.png"
-                        class="object-contain absolute block w-full h-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                        alt="...">
-                </div>
+
+    <div id="default-carousel" class="relative w-[100%] sm:w-4/5 md:w-3/6 lg:w-2/6 mx-auto  h-[45vh] sm:h-[70vh]  pt-5 pb-5" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-full w-full overflow-hidden rounded-lg sm:h-[70vh]">
+             <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../img/pd1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
-            <!-- Slider indicators -->
-            <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
-                    data-carousel-slide-to="0"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
-                    data-carousel-slide-to="1"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
-                    data-carousel-slide-to="2"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
-                    data-carousel-slide-to="3"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
-                    data-carousel-slide-to="4"></button>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../img/pd2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
-            <!-- Slider controls -->
-            <button type="button"
-                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-prev>
-                <span
-                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 1 1 5l4 4" />
-                    </svg>
-                    <span class="sr-only">Previous</span>
-                </span>
-            </button>
-            <button type="button"
-                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-next>
-                <span
-                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="m1 9 4-4-4-4" />
-                    </svg>
-                    <span class="sr-only">Next</span>
-                </span>
-            </button>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../img/pd3.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../img/pd4.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../img/pd5.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
         </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
+    
+</section>
 
+    <footer class=" relative z-10 h-fit bg-[#bebdb2] flex pt-8 ">
+        <button class=" ">
+            <a href="/index.html">
+                <p class="text-start text-[2vh] md:text-[3vh] ml-5"> На главную</p>
+            </a>
+        </button>
 
-    </section>
-
-    <footer class="h-fit bg-[#404040] flex pt-28 ">
-<button class="rounded-full bg-black">
-     <a href="/index.html">
-            <p class="text-start text-[3vh] ml-5"> На главную</p>
-        </a>
-</button>
-       
         <div class=" w-4/6"></div>
         <a href="/subpages/podcast.html">
-            <p class="text-end text-[3vh] mr-5">Астафьев в историях</p>
+            <p class="text-end text-[2vh] md:text-[3vh]  mr-5">Астафьев в историях</p>
         </a>
     </footer>
 

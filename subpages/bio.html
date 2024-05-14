@@ -12,7 +12,8 @@
     <style>
         body {
             font-family: 'MONTSERRAT';
-            background: #ebe7dd
+            background: #ebe7dd;
+            overflow-x: hidden;
         }
     </style>
 </head>
@@ -32,7 +33,7 @@
         </div>
 
 
-        <div class="flex flex-col w-screen h-fit items-center mt-6 ">
+<div class="flex flex-col w-screen h-fit items-center mt-6 ">
             <div class="w-4/6 h-full ">
                 <p class="text-[3vh] text-center "> Сибирь всегда была домом </p>
                 <br>
@@ -48,27 +49,53 @@
 
                     На карте отмечены места, которые связаны с жизнью и творчеством Виктора Петровича. Листайте карту,
                     нажимайте на точки и читайте факты из его биографии.
+
                 </p>
             </div>
             <!-- <div class=" w-4/6 h-full  content-center flex "> -->
-            <div class="container-wrapper-genially" style="position: relative; min-height: 1000px; max-width: 66.7%; ">
+            
+                <div class="w-4/5  sm:w-2/5 max-w-[450px] xl:max-w-[550px]  ">
+                    <div class="max-w-[450px] xl:max-w-[550px]  " style="position: relative; padding-bottom: 177.77777777777777%; padding-top: 0; height: 0;">
+                        <iframe title="Астафьев. Век спустя" 
+                        frameborder="0" width="1080px" 
+                        height="1920px" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                        src="https://view.genial.ly/656557a8f9d73c0015b868f5" 
+                        type="text/html" 
+                        allowscriptaccess="always" 
+                        allowfullscreen="true" 
+                        scrolling="yes" 
+                        allownetworking="all">
+                    </iframe> 
+                    </div> 
+            </div>
+        <!-- <div class=" hidden sm:flex w-full h-full items-center justify-center">   
+            <div class="hidden  container-wrapper-genially  " style="position: relative;  min-height: 500px; max-width: 66.7%; ">
                 <video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted"
                     style="position: absolute;left: 50%;transform: translate(-50%, -50%);width: 80px;height: 80px;margin-bottom: 10%">
                     <source src="https://static.genial.ly/resources/loader-default.mp4" type="video/mp4" />Your browser
                     does not support the video tag.
                 </video>
                 <div id="655859df2ac6b60011a52d33" class="genially-embed"
-                    style="margin: 0px auto; position: relative; height: auto; width: 100%;">
+                    style="margin: 0px auto; position: relative; height: 100%; width: 100%;">
                 </div>
             </div>
-            <script>(function (d) { var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0]; if (d.getElementById(id)) { return; } js = d.createElement("script"); js.id = id; js.async = true; js.src = "https://view.genial.ly/static/embed/embed.js"; ref.parentNode.insertBefore(js, ref); }(document));</script>
-            <!-- </div> -->
+         
+            <script>(function (d) 
+            { var js, id = "genially-embed-js",
+             ref = d.getElementsByTagName("script")[0]; 
+             if (d.getElementById(id)) { return; } 
+             js = d.createElement("script"); 
+             js.id = id; js.async = true; 
+             js.src = "https://view.genial.ly/static/embed/embed.js"; 
+             ref.parentNode.insertBefore(js, ref); }(document));
+            </script>
+        </div>  -->
+</div>
 
 
-
-        </div>
         <div class=" h-1/6"></div>
-        <div class="min-[2px]:max-md:hidden  flex flex-col w-screen h-screen items-center">
+        <div class="  flex flex-col w-screen h-screen items-center">
             <iframe class="mx-auto" width="80%" height="90%" frameborder="0" allowfullscreen="true"
                 webkitallowfullscreen="true" mozallowfullscreen="true"
                 src="https://truevirtualtours.com/ru/tour/19832/show"></iframe>
@@ -91,7 +118,7 @@
                 <p class="text-start text-[3vh] ml-5"> На главную</p>
             </a>
             <div class=" w-4/6"></div>
-            <a href="subpages/creativy.html">
+            <a href="creativy.html">
                 <p class="text-end text-[3vh] mr-5">Астафьев в творчестве</p>
             </a>
         </footer>
