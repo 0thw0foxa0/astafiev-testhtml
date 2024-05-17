@@ -3,6 +3,7 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
+  darkMode:"class",
 
   important : true,
   content: [],
