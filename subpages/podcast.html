@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../src/preload.js">
+    </script>
     <style>
         body {
             font-family: 'MONTSERRAT';
@@ -17,6 +19,14 @@
 </head>
 
 <body class="bg-[#d2c9bf]">
+
+    <div id="preloader" class="duration-500 fixed flex items-center justify-center z-50 bg-[#ebe7dd]  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-screen h-screen">
+        <!-- <div class= "z-50 bg-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 animate-spin"> </div> -->
+        <svg class="animate-spin -ml-1 mr-3 h-20 w-20 text-black      " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+    </div>
     <section class=" w-full h-full bg-[#d2c9bf]">
         <header class="h-1/6 w-full">
             <p class="text-center text-[2.4vh] md:text-[3vh] xl:text-[8vh] font-serif font-semibold">
