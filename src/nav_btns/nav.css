@@ -124,3 +124,14 @@ figure.effect-text-three:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+body::-webkit-scrollbar {
+	width: 10px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+	background: #404040;        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+	background-color: #404040;    /* цвет плашки */
+	border-radius: 20px;       /* закругления плашки */
+	border: 3px solid rgb(255, 255, 255);  /* padding вокруг плашки */
+  }
