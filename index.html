@@ -33,7 +33,7 @@
     <section class=" w-screen h-screen  ">
 
         <div class="h-3/4 w-full relative  ">
-            <video src="./img/IMG_1124.MP4" autoplay muted loop class="block  w-[100%] h-[100%] z-0  brightness-50"
+            <video id="bgvideo" src="./img/IMG_1124.MP4" autoplay muted loop class="block  w-[100%] h-[100%] z-0  brightness-50"
                 style="object-fit: cover;"></video>
             <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
 
@@ -50,8 +50,26 @@
             </div>
 
         </div>
-        <div class="   w-full sm:w-3/4 md:w-5/6 lg:w-1/2  mx-auto h-fit ">
-
+      
+        <div class="relative   w-full sm:w-3/4 md:w-5/6 lg:w-1/2  mx-auto h-fit ">
+            <div class=" z-10 w-fit h-fit absolute bottom-[20vh] left-6 sm:bottom-[25vh] lg:bottom-[27vh]"> 
+               
+                <button class=" h-10 w-10 " onclick="changeImage()">
+                    <svg id="play" width="18px" height="20px"  class=" text-[#ebe7dd]" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="currentcolor">
+                            <path d="M17.29,9.02 C18.25,9.56 18.25,10.44 17.29,10.98 L1.74,19.78 C0.78,20.33 0,19.87 0,18.76 L0,1.24 C0,0.13 0.78,-0.32 1.74,0.22 L17.29,9.02 Z">
+                            </path>
+                            
+                        </g>
+                        
+                    </svg>
+                    
+                    <svg id="stopplay" 
+                    class="hidden text-[#ebe7dd]"
+                    width="18px" height="20px" viewBox="0 0 18 20" xmlns="http://www.w3.org/2000/svg"><g fill="currentcolor"><path d="m0,0.99c0,-0.55 0.45,-0.99 0.99,-0.99l4.02,0c0.55,0 0.99,0.46 0.99,0.99l0,18.02c0,0.55 -0.45,0.99 -0.99,0.99l-4.02,0c-0.55,0 -0.99,-0.46 -0.99,-0.99l0,-18.02zm10,0c0,-0.55 0.45,-0.99 0.99,-0.99l4.02,0c0.55,0 0.99,0.46 0.99,0.99l0,8.02c0,10.55 -0.45,10.99 -0.99,10.99l-4.02,0c-0.55,0 -0.99,-0.46 -0.99,-0.99l0,-18.02z"></path></g></svg>
+                </button>
+                <span class=" text-[#ebe7dd] font-serif text-[1.2vh]">Услышать голос Виктора Петровича</span>
+            </div>
             <p class="font-serif text-sm md:text-2xl text-center my-14 ml-4 mr-4 "> <span class="font-semibold">Виктор Петрович Астафьев</span> — советский и российский
                 писатель
                 <br>
@@ -66,7 +84,7 @@
 
 
 
-        <div class="  h-fit xl:h-3/6 justify-center w-screen flex flex-col lg:flex-row  place-items-center   ">
+        <div class="  h-fit xl:h-3/6 justify-center w-screen flex flex-col lg:flex-row  place-items-center mb-10  ">
 
             <div class="h-[30vh] w-[75vw] px-3 justify-center lg:py-0 py-6  inline-block
         items-center xl:w-[25vw] xl:h-[25vh] ">
@@ -117,23 +135,19 @@
             </div>
 
         </div>
-        <div class=" w-full h-fit">
-
-           
-
-        </div>
-        <footer class=" w-full h-1/5 bg-[#404040] flex pt-4">
-<div class=" w-fit ml-5">
-<span class=" font-serif text-[1.4vh] sm:text-[1.8vh] lg:text-[2vh] text-[#ebe7dd]"> 
+      
+        <footer class=" w-full h-fit bg-[#404040] flex pt-12 flex-col sm:flex-row">
+<div class=" w-fit ml-5 mr-5">
+<span class=" font-serif  text-[1.4vh] sm:text-[1.8vh] lg:text-[2vh] text-[#ebe7dd]"> 
     Проект подготовлен студенткой кафедры журналистики и литературоведения ИФиЯК СФУ Киселевой Вероникой
 
  под руководством кандидата филологических наук, доцента кафедры журналистики и литературоведения ИФиЯК СФУ Олеси Владимировны Богуславской.
 </span>
 </div>
-            <img class="h-[100%] w-[100%] px-5 object-contain"
+            <img class="  h-[60%] w-full sm:w-2/5 px-5 object-contain"
             src="./img/навигационная/1680582597_pictures-pibig-info-p-les-trafaret-vkontakte-1.png" alt="">
-            <div class=" w-fit mr-5">
-                <span class="font-serif text-[1.2vh] sm:text-[1.4vh] lg:text-[1.6vh] text-[#ebe7dd]">
+            <div class="pl-5 w-fit mr-5">
+                <span class="font-serif text-[1vh] sm:text-[1.4vh] lg:text-[1.6vh] text-[#ebe7dd]">
                     Особая благодарность:
 
 Мемориальному комплексу Виктора Петровича Астафьева в Овсянке, Краснобровкиной Галине Николаевне,
